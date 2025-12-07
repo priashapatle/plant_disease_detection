@@ -1,23 +1,10 @@
-<<<<<<< HEAD
-# Python
-=======
 # Python cache
->>>>>>> 0d91f4f (Initial clean upload)
 __pycache__/
 *.pyc
 
 # Virtual environment
 .venv/
 
-<<<<<<< HEAD
-# Model files
-models/*.h5
-models/*.keras
-models/efficientnet_savedmodel/
-
-# Dataset (too large)
-data/
-=======
 # VS Code settings
 .vscode/
 
@@ -25,7 +12,12 @@ data/
 data/
 models/
 plant_disease_detection/
->>>>>>> 0d91f4f (Initial clean upload)
 
 # Streamlit cache
 .streamlit/
+
+# Debug test scripts
+debug_inference.py
+check_model_labels.py
+multi_test_verbose.py
+test_on_train.py
