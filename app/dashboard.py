@@ -67,7 +67,7 @@ with col2:
 st.markdown("---")
 
 # Sidebar controls
-with st.sidebar.image(os.path, width=150):
+with st.sidebar.image("assets/logo.png", width=150):
     st.header("Settings")
     api_mode = st.checkbox("Use FastAPI backend", value=True)
     if api_mode and not USE_LOCAL:
@@ -237,3 +237,11 @@ if st.button("Download prediction (JSON)"):
     st.download_button("Download JSON", data=b, file_name="prediction.json", mime="application/json")
 
 st.markdown("<div class='small'>Tip: For better Grad-CAM and local inference, run the dashboard with the same venv that has TensorFlow installed.</div>", unsafe_allow_html=True)
+
+st.markdown("""
+---
+<div style="text-align:center; font-size:14px; color:#666;">
+Project by <b>Priasha Patlegit remote add origin https://github.com/priashapatle/plant_disease_detection.git
+</b> • <a href="https://github.com/priashapatle/plant_disease_detection" target="_blank">GitHub</a>
+</div>
+""", unsafe_allow_html=True)
