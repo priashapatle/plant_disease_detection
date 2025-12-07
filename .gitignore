@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Model files
+models/*.h5
+models/*.keras
+models/efficientnet_savedmodel/
+
+# Dataset (too large)
+data/
+
+# Streamlit cache
+.streamlit/
