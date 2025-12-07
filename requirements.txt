@@ -1,0 +1,11 @@
+tensorflow==2.20.0
+numpy
+opencv-python
+pillow
+scikit-learn
+requests
+matplotlib
+fastapi
+uvicorn
+python-multipart
+streamlit
